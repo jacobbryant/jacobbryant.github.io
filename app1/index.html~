@@ -1,0 +1,30 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title></title>
+	</head>
+
+<div class="container">
+  <h1>Harv-O-Meter</h1>
+
+ 
+
+<div class="row">
+  <div class="col-md-6">
+    <h3>Harvey's claim</h3>
+
+    <p>Harvey Perlman, the chancellor for the University of Nebraska-Lincoln, has made it a goal to increase the enrollment at the college to 30,000 students.However, going all the way back to the '60s, the university's enrollment hasn't been higher than 26,000.</p>
+
+    {% for year in enrollment %}
+    <p>
+      <strong>{{ year.Year|int }}:</strong>
+      {{ year.Students|int }}
+    </p>
+    {% endfor %}
+  </div>
+  <div class="col-md-6">
+    <img src="unl.jpg" alt="" >
+{% endblock content %}
+

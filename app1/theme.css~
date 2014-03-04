@@ -1,0 +1,7 @@
+    html {
+    background: url(../img/http://waterforfood.nebraska.edu/wff2013/wp-content/uploads/sites/3/2013/04/Harvey-Perlman.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
