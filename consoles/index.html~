@@ -1,0 +1,23 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<div class="container">
+  <h1>Video Game Console Comparisons</h1>
+
+  <p>Lots of people today complain about the price of video game consoles and their software. What I plan to do is compare every home console that has come out from the Atari 2600 all the way to November's release of the Xbox One. When you factor in the rate that technology has increased, gaming has been cheaper than it has ever been.</p>
+  
+  <img src="before.png" alt="" >
+  
+  
+  <p>As you can see, prices for games have steadily climbed over the reasons, aside from ridiculous spikes from the 3DO and NeoGeo. While it appears that gaming is getting more expense it is actually as cheap as it has ever been. You wouldn't expect to pay the same for your ColecoVision as you did for your PS4 would you?</p> 
+  
+  <img src="after.png">
+  
+  <p>Bam! Just like that your mind is blown. The Atari 2600 cost more, with inflation factored in, than your Xbox One did. Remember that E.T. game that they had to create a landfill in New Mexico to hide all the unsold copies because the game was so bad? Imagine paying $796 to play that game. Now think about Titanfall. Shelling out 500 clams for that game doesn't seem so bad does it? The next time you buy a game just to go around and complain about the price do one of two things:</p>
+  <ol>
+  	<li>DON'T BUY THE GAME IF YOU'RE JUST GOING TO COMPLAIN!</li>
+  	<li>Think about that E.T. Game and what it cost to play that pile of trash. Then be happy and play your game.</li>
+  </ol>
+
+{% endblock content %}
+
